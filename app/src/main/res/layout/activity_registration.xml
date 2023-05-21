@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40EA26"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/back_img"
+        android:rotation="90"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/down"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:text="Registration"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/username"
+        android:textSize="25sp"
+        android:hint="Username"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="85dp" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#80FFFFFF"
+        android:textSize="25sp"
+        android:hint="Email"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="145dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/password"
+        android:textSize="25sp"
+        android:hint="Password"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="205dp"/>
+
+    <Button
+        android:id="@+id/button_gm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:text="Next"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="280dp"/>
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="550dp"
+        android:background="@drawable/circul"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="-90dp"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/reindeer"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="130dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trivia"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="170dp"/>
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:rotation="45"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:gravity="top"
+        android:background="@drawable/round_btn"
+        android:layout_marginTop="-135dp"
+        />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:text="Log In"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/reindeer"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="150dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trivia"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="170dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/down"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="200dp"
+        />
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:id="@+id/button_fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:elevation="6dp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:text="Log in with Facebook"
+        android:background="@drawable/round_btn"
+        android:gravity="center"
+        android:layout_marginTop="450dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="520dp"
+        android:text="or"
+        android:textSize="18sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Up with Eamail"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="570dp"
+        android:layout_marginStart="145dp"
+        />
+
+    <Button
+        android:id="@+id/button_gm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Registration"
+        android:background="@drawable/round_btn"
+        android:gravity="center"
+        android:layout_marginTop="650dp"/>
+
+
+
+
+</FrameLayout>
